@@ -1,0 +1,37 @@
+body{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background:#ffffff;
+    border: 10px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+
+}
+
+.animated{
+    transition-duration: 2s;
+    transition-property: background,border-radius,color;
+}
+
+.circle:hover{
+    background-color: rgb(255, 4, 4);
+    border-radius: 0px;
+    color: white;
+    
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    
+}
